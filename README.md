@@ -25,6 +25,7 @@ cons:
 
 Example:
 
+```
 app.get('/path/:id', (req, res) => {
 
         //swagger document customization
@@ -43,6 +44,7 @@ app.get('/path/:id', (req, res) => {
         */
         ...
     })
+```
 
 ii) Swagger Jsdoc (Preferred)
 
@@ -59,6 +61,7 @@ cons:
 
 Example:
 
+```
 /\*\*
 
 - @openapi
@@ -72,3 +75,4 @@ Example:
   app.get('/', (req, res) => {
   res.send('Hello World!');
   });
+```
